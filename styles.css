@@ -1,10 +1,10 @@
 /* Base */
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: 'Inter', sans-serif; line-height: 1.6; background:#f7f7f7; color:#222; scroll-behavior:smooth; }
-.container { width: 90%; max-width: 1200px; margin:auto; }
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:'Inter', sans-serif; line-height:1.6; background:#f7f7f7; color:#222; scroll-behavior:smooth; }
+.container { width:90%; max-width:1200px; margin:auto; }
 
 /* Navbar */
-.navbar { background: #8b0000; padding:1rem 0; position:sticky; top:0; z-index:100; }
+.navbar { background:#8b0000; padding:1rem 0; position:sticky; top:0; z-index:100; }
 .navbar .logo { color:#fff; font-weight:700; font-size:1.5rem; }
 .nav-links { list-style:none; display:flex; gap:1rem; flex-wrap:wrap; }
 .nav-links a { text-decoration:none; color:#fff; font-weight:600; }
@@ -49,7 +49,7 @@ body { font-family: 'Inter', sans-serif; line-height: 1.6; background:#f7f7f7; c
 
 /* Awards Grid */
 .awards-grid { display:flex; gap:1rem; overflow-x:auto; padding-bottom:1rem; margin-top:1rem; }
-.award-card { background:#fff; flex:0 0 200px; padding:1rem; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.05); text-align:center; }
+.award-card { background:#fff; flex:0 0 250px; padding:1rem; border-radius:8px; box-shadow:0 5px 15px rgba(0,0,0,0.05); text-align:center; }
 .award-card a { color:#8b0000; text-decoration:none; font-weight:600; }
 .award-card a:hover { text-decoration:underline; }
 
@@ -63,7 +63,4 @@ body { font-family: 'Inter', sans-serif; line-height: 1.6; background:#f7f7f7; c
 .delay-1 { animation-delay:0.3s; }
 .delay-2 { animation-delay:0.6s; }
 .delay-3 { animation-delay:0.9s; }
-@keyframes fadeIn { to { opacity:1; } }
-
-/* Responsive */
-@media(max-width:768px){ .hero-grid{flex-direction:column;} .nav-links{flex-direction:column; gap:0.5rem;} .timeline{padding-left:1rem;} }
+@keyframes fadeIn { to { opacity:1
