@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Roshan Dharan - Resume</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -13,109 +13,105 @@
     <div class="container nav-container">
       <div class="logo">Roshan Dharan</div>
       <ul class="nav-links">
-        <li><a href="#home" class="nav-link">Home</a></li>
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#experience" class="nav-link">Experience</a></li>
-        <li><a href="#education" class="nav-link">Education</a></li>
-        <li><a href="#technical-skills" class="nav-link">Technical Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#awards" class="nav-link">Awards</a></li>
-        <li><a href="#certifications" class="nav-link">Certifications</a></li>
-        <li><a href="#publications" class="nav-link">Publications</a></li>
-        <li><a href="#volunteering" class="nav-link">Volunteering</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#technical-skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#volunteering">Volunteering</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <main class="main-container">
-    <!-- Hero Section -->
-    <section id="home" class="section hero fade-in">
-      <div class="hero-content container">
-        <img src="profile-photo.jpg" alt="Profile Photo" class="profile-pic" />
-        <div class="hero-text">
-          <h2>Hello,</h2>
-          <h1>I'm Roshan Dharan</h1>
-          <p>Master's Student at USC | Former Software Engineer at Oracle</p>
-          <div class="hero-buttons">
-            <a class="btn primary" href="#contact">Get a project?</a>
-            <a class="btn secondary" href="RoshanDharan_Resume.pdf" target="_blank" rel="noopener noreferrer">My resume</a>
-          </div>
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container hero-container">
+      <img src="profile-photo.jpg" alt="Profile" class="profile-pic" />
+      <div class="hero-text">
+        <h1>Roshan Dharan</h1>
+        <p>Master's Student at USC | Former Software Engineer at Oracle</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn primary-btn">Get a project?</a>
+          <a href="RoshanDharan_Resume.pdf" target="_blank" class="btn secondary-btn">My Resume</a>
+        </div>
+        <div class="skills-badges">
+          <span>Python</span><span>Java</span><span>SQL</span>
+          <span>Power BI</span><span>AWS</span><span>Machine Learning</span>
+          <span>TensorFlow</span>
         </div>
       </div>
-      <div class="skills-row container">
-        <span class="skill-badge">Python</span>
-        <span class="skill-badge">Java</span>
-        <span class="skill-badge">SQL</span>
-        <span class="skill-badge">Power BI</span>
-        <span class="skill-badge">AWS</span>
-        <span class="skill-badge">Machine Learning</span>
-        <span class="skill-badge">TensorFlow</span>
-      </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- About -->
-    <section id="about" class="section slide-up container">
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
       <h2>About Me</h2>
-      <p>
-        I am a passionate software developer with experience in analytics, cloud, and machine learning.
-        I specialize in developing scalable solutions and optimizing workflows.
-      </p>
+      <p>I am a passionate software developer with experience in analytics, cloud, and machine learning. I specialize in developing scalable solutions and optimizing workflows.</p>
       <div class="stats">
         <div><strong>20+</strong><br />Completed Projects</div>
         <div><strong>95%</strong><br />Client Satisfaction</div>
         <div><strong>2+</strong><br />Years of Experience</div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Experience -->
-    <section id="experience" class="section slide-up container">
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
       <h2>Experience</h2>
 
-      <div class="experience-item">
+      <div class="card">
         <h3>Associate Software Engineer, AMS Custom Reporting</h3>
-        <p class="company-location">Oracle | Bengaluru, India</p>
-        <p class="date">Oct 2023 – Jul 2025</p>
+        <p class="subtext">Oracle | Bengaluru, India | Oct 2023 – Jul 2025</p>
         <ul>
-          <li>Led advanced analytics initiatives at 17+ departments, reducing runtimes by 30–40% and reclaiming 500+ staff hours/year through automation.</li>
-          <li>Managed a team designing MedeAnalytics pipelines processing 600,000+ daily patient records for financial metrics impacting $200M+ revenue.</li>
-          <li>Created/transmitted 340B Extract to vendor using SQL, MoveIT, and Pharmacy Surveillance; streamlined workflow, saving 114 hours/year and $12M pharmacy spend.</li>
-          <li>Directed HIDI Extract reporting handling 70+ data points with &lt;2% error rate for 100,000+ transactions, enhancing financial accuracy.</li>
+          <li>Led analytics initiatives reducing runtimes by 30–40% and reclaimed 500+ staff hours/year through automation.</li>
+          <li>Managed MedeAnalytics pipelines processing 600,000+ daily patient records for $200M+ revenue metrics.</li>
+          <li>Created/transmitted 340B Extract to vendor using SQL, MoveIT, and Pharmacy Surveillance; streamlined workflow saving 114 hours/year and $12M pharmacy spend.</li>
+          <li>Directed HIDI Extract reporting handling 70+ data points with &lt;2% error rate for 100,000+ transactions.</li>
           <li>Developed CLABSI Audit system freeing 15+ nurse hours weekly via Mobile Vitals Collection and PowerChart monitoring 500+ patients.</li>
         </ul>
       </div>
 
-      <div class="experience-item">
+      <div class="card">
         <h3>Analytics Intern, International Consulting PMO</h3>
-        <p class="company-location">Oracle Cerner | Bengaluru, India</p>
-        <p class="date">Jan 2023 – Jul 2023</p>
+        <p class="subtext">Oracle Cerner | Bengaluru, India | Jan 2023 – Jul 2023</p>
         <ul>
-          <li>Migrated 5 enterprise Power BI reports from on-premise and SharePoint to Snowflake Cloud rebuilding KPIs with DAX.</li>
-          <li>Automated offline-to-online data entry with Python multithreading + Selenium reducing manual effort by 44 hours per 1000 rows.</li>
+          <li>Migrated enterprise Power BI reports from on-premise/SharePoint to Snowflake Cloud rebuilding KPIs with DAX.</li>
+          <li>Automated offline-to-online data entry with Python multithreading + Selenium reducing manual effort by 44 hours/1000 rows.</li>
         </ul>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Education -->
-    <section id="education" class="section slide-up container">
+  <!-- Education -->
+  <section id="education" class="section">
+    <div class="container">
       <h2>Education</h2>
 
-      <div class="education-item">
+      <div class="card">
         <h3>University of Southern California</h3>
-        <p class="date-location">Aug 2025 – Present | Los Angeles, CA</p>
+        <p class="subtext">Aug 2025 – Present | Los Angeles, CA</p>
         <p>Master of Science in Computer Science</p>
       </div>
 
-      <div class="education-item">
+      <div class="card">
         <h3>REVA University</h3>
-        <p class="date-location">Jul 2019 – Jul 2023 | Bengaluru, India</p>
-        <p>Bachelor of Technology in Computer Science and Engineering, GPA: 3.97/4</p>
+        <p class="subtext">Jul 2019 – Jul 2023 | Bengaluru, India</p>
+        <p>Bachelor of Technology in Computer Science and Engineering | GPA: 3.97/4</p>
         <p><strong>Coursework:</strong> Data Structures and Algorithms, OOP (Python/Java/C++), Advanced DBMS, Operating Systems, Machine Learning, AI, Cloud, Big Data, Data Science with R</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Technical Skills -->
-    <section id="technical-skills" class="section slide-up container">
+  <!-- Technical Skills -->
+  <section id="technical-skills" class="section">
+    <div class="container">
       <h2>Technical Skills</h2>
       <ul class="skills-list">
         <li><strong>Languages:</strong> Python, SQL (PostgreSQL, CCL), Java, C++, JavaScript</li>
@@ -123,155 +119,121 @@
         <li><strong>Big Data / Cloud:</strong> Databricks, Snowflake, GCP, AWS (S3, Lambda, LightSail), OCI, Oracle Cerner Millennium EHR</li>
         <li><strong>ML / AI Tools:</strong> TensorFlow, Keras, PyTorch, OpenCV (multimodal predictive modeling, NLP)</li>
       </ul>
-    </section>
+    </div>
+  </section>
 
-    <!-- Projects -->
-    <section id="projects" class="section slide-up container">
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
       <h2>Projects</h2>
 
-      <div class="project-card">
+      <div class="card">
         <h3>ICU Outcome Prediction</h3>
-        <p class="date">Jan 2025 – May 2025</p>
         <p>Developed a multimodal machine learning pipeline predicting ICU patient outcomes with time-series vitals and clinical notes. Models include logistic regression baseline (78% AUROC), BioClinicalBERT embeddings (85%), and LSTM/Transformer models (+6–8%).</p>
         <p>Fully automated CI/CD pipeline with GitHub Actions and Streamlit dashboard for interactive patient risk visualization.</p>
-        <p><a href="https://github.com/Roshandharan/icu-outcome-prediction" target="_blank" rel="noopener noreferrer">GitHub Repository</a></p>
+        <p><a href="https://github.com/Roshandharan/icu-outcome-prediction" target="_blank">GitHub Repository</a></p>
       </div>
 
-      <div class="project-card">
+      <div class="card">
         <h3>340B Extract – Split Transaction File | Verity Solutions</h3>
-        <p class="date">Jan 2025 – Mar 2025</p>
         <p>Developed medication dispense data files classified per 340B standards, resulting in 114+ hours saved annually and $12M+ cost reduction.</p>
       </div>
 
-      <div class="project-card">
+      <div class="card">
         <h3>CALBSI Audit Report | Central Line-associated Bloodstream Infection</h3>
-        <p class="date">Jan 2025 – Mar 2025</p>
         <p>Delivered audit reports tracking central lines and infusions, optimizing query performance, and generating structured PDFs to streamline clinical audits.</p>
       </div>
 
-      <div class="project-card">
+      <div class="card">
         <h3>HIDI Extract | District of Columbia Hospital Association</h3>
-        <p class="date">Sep 2024 – Dec 2024</p>
         <p>Modular ETL and reporting solution capturing 70+ data points for UB-04 claims with under 2% error rate and quarterly delivery compliance.</p>
       </div>
 
-      <div class="project-card">
+      <div class="card">
         <h3>MedeAnalytics Patient Accounting Files</h3>
-        <p class="date">Sep 2024 – Dec 2024</p>
         <p>Managed daily batch delivery of 9 files covering patient accounts and financial transactions for ~600,000 records with optimized queries.</p>
       </div>
 
-      <div class="project-card">
+      <div class="card">
         <h3>Power BI Report Migration to Snowflake Cloud</h3>
-        <p class="date">May 2023 – Jun 2023</p>
         <p>Migrated and rebuilt KPIs for multiple reports moving from on-premise to Snowflake Cloud, improving analytics and dashboard KPIs.</p>
       </div>
 
-      <div class="project-card">
+      <div class="card">
         <h3>Web Automation Using Selenium</h3>
-        <p class="date">Jan 2023 – Jun 2023</p>
         <p>Automated online data entry using Selenium and Python multithreading, cutting 44+ manual hours per 1,000 rows.</p>
       </div>
 
-      <div class="project-card">
+      <div class="card">
         <h3>EV Charging Monitoring and Scheduling through Battery Management System (BMS80)</h3>
-        <p class="date">Sep 2022 – May 2023</p>
         <p>Patented eco-charging system extending EV battery life via deep learning-based battery health monitoring and fault detection.</p>
       </div>
 
-      <div class="project-card">
+      <div class="card">
         <h3>Blood Bank Management Using AWS</h3>
-        <p class="date">Feb 2022 – Apr 2022</p>
         <p>Hosted blood bank system on Amazon Light Sail, configuring network and web hosting for critical healthcare infrastructure.</p>
       </div>
 
-      <div class="project-card">
+      <div class="card">
         <h3>Face Mask Detection Using TensorFlow and Python</h3>
-        <p class="date">Oct 2021 – Nov 2021</p>
         <p>Developed real-time face mask detection model using TensorFlow object detection, enhancing public safety monitoring.</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Awards -->
-    <section id="awards" class="section slide-up container">
+  <!-- Awards -->
+  <section id="awards" class="section">
+    <div class="container">
       <h2>Awards</h2>
       <ul>
-        <li>
-          <strong>Oracle Pinnacle Award</strong><br />
-          Issued by Oracle · Jun 2025 | Associated with Oracle<br />
-          <a href="https://www.linkedin.com/in/roshan-dharan/details/honors/1751711654684/single-media-viewer?type=DOCUMENT&profileId=ACoAADCKfekBPbsUee91jeQWuOsZGShG37fFjpY" target="_blank" rel="noopener noreferrer">View Certificate (FY25 Q4 Pinnacle Award)</a>
-          <p>Roshan’s diligence in resolving issues quickly, problem-solving skills, and dedication in addressing challenges promptly have positively impacted the team's efficiency. His clarity in thought, response to escalated technical issues, and proactive approach have created assurance amongst clients. He worked on a complex SR involving layout build optimization supporting dynamic memory allocation and solved a unique edge case in analytics reporting, earning high client satisfaction and positive feedback. Thanks for being a reliable associate who brings valuable ideas to the team.</p>
-        </li>
-        <li>
-          <strong>Champions of Service Award</strong><br />
-          Issued by Oracle · Mar 2025 | Associated with Oracle<br />
-          Awarded for outstanding customer service efforts driving exceptional client satisfaction.<br />
-          <a href="https://www.linkedin.com/in/roshan-dharan/details/honors/1743223920852/single-media-viewer?type=DOCUMENT&profileId=ACoAADCKfekBPbsUee91jeQWuOsZGShG37fFjpY" target="_blank" rel="noopener noreferrer">View Certificate</a>
-        </li>
-        <li>
-          <strong>Spot Award</strong><br />
-          Issued by Oracle · Jan 2025 | Associated with Oracle<br />
-          Recognized for exceptional client deliverables and productivity, exceeding KPIs.<br />
-          <a href="https://www.linkedin.com/in/roshan-dharan/details/honors/1743223791491/single-media-viewer?type=DOCUMENT&profileId=ACoAADCKfekBPbsUee91jeQWuOsZGShG37fFjpY" target="_blank" rel="noopener noreferrer">View Certificate</a>
-        </li>
-        <li>
-          <strong>Round of Applause</strong><br />
-          Issued by Oracle · Nov 2024 | Associated with Oracle<br />
-          For outstanding client satisfaction and support contributions to departmental success.<br />
-          <a href="https://www.linkedin.com/in/roshan-dharan/details/honors/1743223576462/single-media-viewer?type=DOCUMENT&profileId=ACoAADCKfekBPbsUee91jeQWuOsZGShG37fFjpY" target="_blank" rel="noopener noreferrer">View Certificate</a>
-        </li>
-        <li>
-          <strong>Spot Award</strong><br />
-          Issued by Oracle · Date not specified | Associated with Oracle<br />
-          Recognized multiple client accolades and strong resolution rate maintaining Tier 1 support turnaround times.
-        </li>
+        <li><strong>Oracle Pinnacle Award</strong> – Jun 2025 | <a href="https://www.linkedin.com/in/roshan-dharan/details/honors/1751711654684/single-media-viewer?type=DOCUMENT&profileId=ACoAADCKfekBPbsUee91jeQWuOsZGShG37fFjpY" target="_blank">View Certificate</a></li>
+        <li><strong>Champions of Service Award</strong> – Mar 2025 | <a href="https://www.linkedin.com/in/roshan-dharan/details/honors/1743223920852/single-media-viewer?type=DOCUMENT&profileId=ACoAADCKfekBPbsUee91jeQWuOsZGShG37fFjpY" target="_blank">View Certificate</a></li>
+        <li><strong>Spot Award</strong> – Jan 2025 | <a href="https://www.linkedin.com/in/roshan-dharan/details/honors/1743223791491/single-media-viewer?type=DOCUMENT&profileId=ACoAADCKfekBPbsUee91jeQWuOsZGShG37fFjpY" target="_blank">View Certificate</a></li>
+        <li><strong>Round of Applause</strong> – Nov 2024 | <a href="https://www.linkedin.com/in/roshan-dharan/details/honors/1743223576462/single-media-viewer?type=DOCUMENT&profileId=ACoAADCKfekBPbsUee91jeQWuOsZGShG37fFjpY" target="_blank">View Certificate</a></li>
       </ul>
-    </section>
+    </div>
+  </section>
 
-    <!-- Certifications -->
-    <section id="certifications" class="section slide-up container">
+  <!-- Certifications -->
+  <section id="certifications" class="section">
+    <div class="container">
       <h2>Certifications</h2>
       <ul>
-        <li>
-          <strong>ITIL® Foundation Certificate in IT Service Management</strong> | PeopleCert |
-          Issued May 2025, Expires May 2028 | Credential ID: GR671779088SD
-        </li>
-        <li>
-          <strong>Machine Learning</strong> | NPTEL | Issued Apr 2023 | Credential ID: NPTEL23CS11S34220463<br />
-          Skills: Machine Learning Algorithms
-        </li>
+        <li><strong>ITIL® Foundation Certificate in IT Service Management</strong> | PeopleCert | Issued May 2025</li>
+        <li><strong>Machine Learning</strong> | NPTEL | Issued Apr 2023 | Skills: Machine Learning Algorithms</li>
       </ul>
-    </section>
+    </div>
+  </section>
 
-    <!-- Publications -->
-    <section id="publications" class="section slide-up container">
+  <!-- Publications -->
+  <section id="publications" class="section">
+    <div class="container">
       <h2>Publications</h2>
       <ul>
-        <li>
-          <strong>AI-Powered Battery Management System for EVs</strong> — Published in International Journal of Computational Learning & Intelligence, 2023.
-          <a href="https://milestoneresearch.in/JOURNALS/index.php/IJCLI/article/view/82" target="_blank" rel="noopener noreferrer">View Publication</a>
-        </li>
+        <li><strong>AI-Powered Battery Management System for EVs</strong> — Published in International Journal of Computational Learning & Intelligence, 2023. <a href="https://milestoneresearch.in/JOURNALS/index.php/IJCLI/article/view/82" target="_blank">View Publication</a></li>
       </ul>
-    </section>
+    </div>
+  </section>
 
-    <!-- Volunteering -->
-    <section id="volunteering" class="section slide-up container">
+  <!-- Volunteering -->
+  <section id="volunteering" class="section">
+    <div class="container">
       <h2>Volunteering</h2>
-      <div class="volunteer-item">
-        <h3>Sports Lead</h3>
-        <p class="date-location">Sep 2021 – Oct 2022 | Forum of Aspiring Computer Engineers (FACE) - REVA University</p>
+      <div class="card">
+        <h3>Sports Lead | Forum of Aspiring Computer Engineers (FACE) - REVA University</h3>
+        <p class="subtext">Sep 2021 – Oct 2022</p>
         <ul>
           <li>Organized Inter-Department Table Tennis tournament for REVA University.</li>
-          <li>Supervised formation of Basketball, Football, Table Tennis, Volleyball, Cricket, and Chess teams for Computer Science Engineering.</li>
+          <li>Supervised formation of Basketball, Football, Table Tennis, Volleyball, Cricket, and Chess teams.</li>
           <li>Led chess and table tennis teams to victories in inter-department tournaments.</li>
           <li>Organized Abhi-rudhi (Fundraiser) and cultural events like Ethnic Day and Freshers Day.</li>
         </ul>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
   <!-- Footer -->
-  <footer id="contact">
+  <footer id="contact" class="footer">
     <div class="container">
       <p>Contact: <a href="mailto:rshashid@usc.edu">rshashid@usc.edu</a> | (213) 930-3816</p>
       <p>&copy; 2025 Roshan Dharan</p>
