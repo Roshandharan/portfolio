@@ -8,91 +8,84 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1 class="fade-in">Roshan Dharan</h1>
-    <p class="fade-in-delay">
-      Los Angeles, CA 90007 | (213) 930-3816 | 
-      <a href="mailto:rshashid@usc.edu">rshashid@usc.edu</a> | 
-      <a href="https://linkedin.com/in/roshan-dharan" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
-      <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </p>
-  </header>
-
-  <main>
-    <section class="slide-up">
-      <h2>Education</h2>
-      <div class="education-item">
-        <h3>University of Southern California</h3>
-        <p class="date-location">Aug 2025 – Present | Los Angeles, CA</p>
-        <p>Master of Science in Computer Science</p>
-      </div>
-      <div class="education-item">
-        <h3>REVA University</h3>
-        <p class="date-location">Jul 2019 – Jul 2023 | Bengaluru, India</p>
-        <p>Bachelor of Technology in Computer Science and Engineering, GPA: 3.97/4</p>
-        <p><em>Coursework:</em> Data Structures and Algorithms, Object-Oriented Programming (Python/Java/C++), Advanced DBMS, Operating Systems, Machine Learning, Artificial Intelligence, Cloud Computing, Big Data, Data Science with R</p>
-      </div>
-    </section>
-
-    <section class="slide-up delay-1">
-      <h2>Technical Skills</h2>
-      <ul class="skills-list">
-        <li><strong>Languages:</strong> Python, SQL (PostgreSQL, CCL), Java, C++, JavaScript</li>
-        <li><strong>Data Analytics:</strong> Power BI, R, NumPy, Pandas, Matplotlib, Scikit-Learn</li>
-        <li><strong>Big Data / Cloud:</strong> Databricks, Snowflake, GCP, AWS (S3, Lambda, LightSail), OCI, Oracle Cerner Millennium EHR</li>
-        <li><strong>ML / AI Tools:</strong> TensorFlow, Keras, PyTorch, OpenCV for multimodal predictive modeling, NLP</li>
+  <div class="main-container">
+    <nav class="navbar">
+      <div class="logo">Roshan Dharan</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-    </section>
+    </nav>
 
-    <section class="slide-up delay-2">
-      <h2>Experience</h2>
-
-      <div class="experience-item">
-        <h3>Associate Software Engineer</h3>
-        <p class="company-location">Oracle | Bengaluru, India</p>
-        <p class="date">Oct 2023 – Jul 2025</p>
-        <ul>
-          <li>Led advanced analytics initiatives at Children’s National Hospital across 17+ departments, driving 30–40% reduction in report runtimes and reclaiming 500+ staff hours/year by leveraging predictive models and automation.</li>
-          <li>Managed a team of 6 to design MedeAnalytics SQL pipelines, processing 600,000+ patient records daily, performing data wrangling and ETL, delivering financial metrics shaping $200M+ revenue decisions.</li>
-          <li>Created and transmitted 340B Extract to vendor using SQL, MoveIT, and Pharmacy Clinical Surveillance; streamlined workflow reclaimed 114 hours/year and cut pharmacy drug spend by $12M+ annually.</li>
-          <li>Directed HIDI Extract reporting by implementing UB-04 claims solution capturing 70+ data points across 6 record types with &lt;2% error rate for 100,000+ transactions, enhancing financial accuracy and risk assessment.</li>
-          <li>Developed CLABSI Audit system using Infusion Suite, Mobile Vitals Collection, and PowerChart, monitoring 500+ patients weekly, freeing nurses from 15+ hours/week of manual checks.</li>
-        </ul>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <img src="profile-photo.jpg" alt="Profile Photo" class="profile-pic" />
+        <div class="hero-text">
+          <h2>Hello,</h2>
+          <h1>I'm Roshan Dharan</h1>
+          <p>Software Developer</p>
+          <div class="hero-buttons">
+            <a class="primary-btn" href="#contact">Get a project?</a>
+            <a class="secondary-btn" href="RoshanDharan_Resume.pdf" target="_blank" rel="noopener noreferrer">My resume</a>
+          </div>
+        </div>
       </div>
-
-      <div class="experience-item">
-        <h3>Analytics Intern, International Consulting PMO</h3>
-        <p class="company-location">Oracle Cerner | Bengaluru, India</p>
-        <p class="date">Jan 2023 – Jul 2023</p>
-        <ul>
-          <li>Migrated 5 enterprise-level Power BI reports from on-premise and SharePoint platforms to Snowflake Cloud, centralizing fragmented data by rebuilding complex KPIs with DAX.</li>
-          <li>Automated offline-to-online data entry via Python multithreading + Selenium, cutting manual processing by 44 hours per 1,000 rows.</li>
-        </ul>
+      <div class="skills-row">
+        <span class="skill-badge">Python</span>
+        <span class="skill-badge">Java</span>
+        <span class="skill-badge">SQL</span>
+        <span class="skill-badge">Power BI</span>
+        <span class="skill-badge">AWS</span>
+        <span class="skill-badge">Machine Learning</span>
+        <span class="skill-badge">TensorFlow</span>
       </div>
     </section>
 
-    <section class="slide-up delay-3">
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate software developer with experience in analytics, cloud, and machine learning. I specialize in developing scalable solutions and optimizing workflows.
+      </p>
+      <div class="stats">
+        <div><strong>20+</strong><br />Completed Projects</div>
+        <div><strong>95%</strong><br />Client Satisfaction</div>
+        <div><strong>2+</strong><br />Years of Experience</div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
       <h2>Projects</h2>
-      <div class="project-item">
-        <h3>ICU Outcome Prediction</h3>
-        <p class="date">Jan 2025 – May 2025</p>
-        <ul>
-          <li>Built multimodal ICU outcome predictor combining LSTM vital sign modeling with BioClinicalBERT embeddings, improving AUROC by 6–8% over NLP baselines.</li>
-          <li>Designed and implemented end-to-end ML workflows, including TF-IDF feature extraction from 5,000+ clinical note features with logistic regression, establishing a strong baseline model at 78% AUROC.</li>
-        </ul>
+
+      <!-- Example project cards -->
+      <div class="project-card">
+        <h3>340B Extract – Verity Solutions</h3>
+        <p>
+          Developed and maintained medication dispense system; classified transactions for compliance, saving 114+ hours/year and $12M+ pharmacy drug spend.
+        </p>
       </div>
-      <div class="project-item">
-        <h3>AI-Powered Battery Management System</h3>
-        <p class="date">May 2023 – Nov 2023</p>
-        <ul>
-          <li>Engineered deep learning models predicting EV battery State of Charge (SoC) and State of Health (SoH) over 5,000+ charging cycles, enabling adaptive eco-charging to extend battery life and significantly improve efficiency.</li>
-          <li>Published in International Journal of Computational Learning & Intelligence, 2023. <a href="https://milestoneresearch.in/JOURNALS/index.php/IJCLI/article/view/82" target="_blank" rel="noopener noreferrer">View Publication</a></li>
-        </ul>
+
+      <div class="project-card">
+        <h3>Power BI Report Migration to Snowflake Cloud</h3>
+        <p>
+          Migrated reports to centralized Snowflake data, rebuilding KPIs and improving reporting efficiency. Key reports include Program Dashboard, Associate Assignments, and Project Plan Compliance.
+        </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Face Mask Detection Using TensorFlow and Python</h3>
+        <p>
+          Developed a real-time face mask detection model using TensorFlow, achieving high accuracy on labelled images.
+        </p>
       </div>
     </section>
 
-    <section class="slide-up delay-4">
-      <h2>Honors & Awards</h2>
+    <section class="awards" id="awards">
+      <h2>Awards</h2>
       <ul>
         <li><strong>Oracle Pinnacle Award</strong> — Invented memory allocation method adopted org-wide. (Jun 2025)</li>
         <li><strong>Oracle Champion of Service Award</strong> — Recognized as a CSAT Hero. (Mar 2025)</li>
@@ -100,7 +93,7 @@
       </ul>
     </section>
 
-    <section class="slide-up delay-5">
+    <section class="certifications" id="certifications">
       <h2>Certifications</h2>
       <ul>
         <li>
@@ -113,10 +106,21 @@
         </li>
       </ul>
     </section>
-  </main>
 
-  <footer class="fade-in-delay-2">
-    <p>© 2025 Roshan Dharan. All rights reserved.</p>
-  </footer>
+    <section class="publications" id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li>
+          <strong>AI-Powered Battery Management System for EVs</strong> — Published in International Journal of Computational Learning & Intelligence, 2023.  
+          <a href="https://milestoneresearch.in/JOURNALS/index.php/IJCLI/article/view/82" target="_blank" rel="noopener noreferrer">View Publication</a>
+        </li>
+      </ul>
+    </section>
+
+    <footer id="contact">
+      <p>Contact: <a href="mailto:rshashid@usc.edu">rshashid@usc.edu</a> | (213) 930-3816</p>
+      <p>&copy; 2025 Roshan Dharan</p>
+    </footer>
+  </div>
 </body>
 </html>
